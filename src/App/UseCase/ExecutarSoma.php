@@ -7,17 +7,6 @@ use App\Entity\Sequencia;
 
 final class ExecutarSoma {
     public function execute(Sequencia $sequencia) {
-
-        $soma = $sequencia->num1 + $sequencia->num2;
-        
-
-        $soma = $num1 + $num2;
-
-
-        
-        
-        return $this->$soma;
-
-        
-    }
+       return $sequencia->numero1->numero + $sequencia->numero2->numero;                
+   }
 }
